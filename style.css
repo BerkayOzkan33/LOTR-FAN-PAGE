@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    background-color: rgb(30, 24, 24);
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+
+}
+
+.content {
+    flex: 1;
+    margin-left: 300px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #867070;
+    background-image: url(Pictures/rivendell.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+
+
+}
+
+.logo>img {
+    width: 300px;
+    height: 90px;
+}
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(30, 24, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar>p {
+    font-family: 'Great Vibes', cursive;
+    font-size: xx-large;
+    color: #EDD3A2;
+
+}
+
+ul>li {
+    padding: 35px;
+    text-align: center;
+}
+
+
+ul>li>a {
+    font-family: 'Great Vibes', cursive;
+    font-size: xx-large;
+    color: #EDD3A2;
+
+}
+
+.container {
+
+    width: 100%;
+    height: 100%;
+    background-image: url(Pictures/background.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+a:hover {
+    color: #B98308;
+    cursor: url('Pictures/cursor.png'),pointer;
+
+}
+
+.character {
+    display: flex;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 80px;
+    border-style: solid;
+    border-color: silver;
+
+
+
+
+
+}
+
+.story {
+    width: 400px;
+    height: 500px;
+    margin-bottom: 80px;
+    border-style: solid;
+    border-color: gold;
+    background-color: #865439;
+
+
+
+
+}
+
+p {
+    padding: 25px;
+    font-family: 'Courgette', cursive;
+    color: whitesmoke;
+
+}
+
+.character>img {
+    width: 400px;
+    height: 500px;
+
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.story2{
+
+    width: 400px;
+    height: 500px;
+    margin-bottom: 80px;
+    border: solid rgba(255,215,0,0.3);
+    background: rgba(139,69,19,0.3);
+    
+}
+.character2{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 80px;
+    
+}
+h1{
+    text-decoration: none;
+    text-align: center;
+    font-family:'Courgette', cursive;
+    color:rgb(240, 231, 231);
+    padding: 5px;
+    
+}
+#next{
+    font-size: medium;
+    font-family: 'Courgette', cursive;
+    background-color: #594545;
+    color: whitesmoke;
+    display: flex;
+    float: right;
+    margin: 5px;
+    margin-top: 30px;
+    width: 70px;
+    border-style: solid;
+    border-color: silver;
+
+    
+    
+}
+#previous{
+    font-size: medium;
+    font-family: 'Courgette', cursive;
+    background-color: #594545;
+    color: whitesmoke;
+    display: flex;
+    float: right;
+    margin: 5px;
+    margin-top: 30px;
+    width: 70px;
+    border-style: solid;
+    border-color: silver;
+    
+}
+
+#next:hover{
+    color: #FFC26F;
+}
+#previous:hover{
+    color: #FFC26F;
+}
+body{
+    cursor: url('Pictures/cursor.png'), pointer;
+}
+    
+    
+
